@@ -5,5 +5,5 @@ int main(void)
 {
 printf("hello world\n");
 
-
+int a =0;
 }
