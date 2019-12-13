@@ -1998,3 +1998,1005 @@ for (j = 215; j<375; j++){
 for (j = 415; j<575; j++){       
       for (i = 50; i<80; i++){            //2-1
       bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 15; i<45; i++){            //1-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 15; i<45; i++){            //1-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+   for (j = 20; j<180; j++){         
+      for (i =575; i<605; i++){    
+      bmpdata[(j*1000)+i] =0;     // 17-3
+   }
+}
+for (j = 215; j<375; j++){         
+      for (i =575; i< 605; i++){          // 17-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =505; i< 535; i++){          // 15-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =575; i< 605; i++){          // 17-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+            for (j = 415; j<575; j++){       
+      for (i = 505; i<535; i++){            //15-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+            for (j = 415; j<575; j++){       
+      for (i = 470; i<500; i++){            //14-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+           for (j = 415; j<575; j++){       
+      for (i = 505; i<535; i++){            //15-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){         
+      for (i =435; i< 465; i++){          // 13-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =365; i< 395; i++){          // 11-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =365; i< 395; i++){          // 11-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =295; i< 325; i++){          // 9-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =295; i< 325; i++){          // 9-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =225; i< 255; i++){          // 7-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 225; i<255; i++){            //7-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 190; i<220; i++){            //6-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =155; i< 185; i++){          // 5-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =120; i< 150; i++){          // 4-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =120; i< 150; i++){          // 4-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =85; i< 115; i++){          // 3-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 85; i<115; i++){            //3-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 50; i<80; i++){            //2-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 50; i<80; i++){            //2-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 15; i<45; i++){            //1-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 15; i<45; i++){            //1-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+   for (j = 20; j<180; j++){         
+      for (i =610; i<640; i++){    
+      bmpdata[(j*1000)+i] =0;     // 18-3
+   }
+}
+for (j = 215; j<375; j++){         
+      for (i =610; i< 640; i++){          // 18-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =540; i< 570; i++){          // 16-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =610; i< 640; i++){          // 18-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+            for (j = 415; j<575; j++){       
+      for (i = 540; i<570; i++){            //16-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+            for (j = 415; j<575; j++){       
+      for (i = 505; i<535; i++){            //15-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+           for (j = 415; j<575; j++){       
+      for (i = 540; i<570; i++){            //16-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){         
+      for (i =470; i< 500; i++){          // 14-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =400; i< 430; i++){          // 12-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =400; i< 430; i++){          // 12-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =330; i< 360; i++){          // 10-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =330; i< 360; i++){          // 10-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =260; i< 290; i++){          // 8-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 260; i<290; i++){            //8-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 225; i<255; i++){            //7-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =190; i< 220; i++){          // 6-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =155; i< 185; i++){          // 5-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =155; i< 185; i++){          // 5-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =120; i< 150; i++){          // 4-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 120; i<150; i++){            //4-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 85; i<115; i++){            //3-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 85; i<115; i++){            //3-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 50; i<80; i++){            //2-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 50; i<80; i++){            //2-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 15; i<45; i++){            //1-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+for (j = 215; j<375; j++){         
+      for (i =575; i< 605; i++){          // 17-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+            for (j = 415; j<575; j++){       
+      for (i = 575; i<605; i++){            //17-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+            for (j = 415; j<575; j++){       
+      for (i = 540; i<570; i++){            //16-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+           for (j = 415; j<575; j++){       
+      for (i = 575; i<605; i++){            //17-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){         
+      for (i =505; i< 535; i++){          // 15-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =435; i< 465; i++){          // 13-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =435; i< 465; i++){          // 13-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =365; i< 395; i++){          // 11-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =365; i< 395; i++){          // 11-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =295; i< 325; i++){          // 9-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 295; i<325; i++){            //9-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 260; i<290; i++){            //8-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =225; i< 255; i++){          // 7-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =190; i< 220; i++){          // 6-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =190; i< 220; i++){          // 6-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =155; i< 185; i++){          // 5-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 155; i<185; i++){            //5-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 120; i<150; i++){            //4-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 120; i<150; i++){            //4-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 85; i<115; i++){            //3-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 85; i<115; i++){            //3-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 50; i<80; i++){            //2-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+for (j = 215; j<375; j++){         
+      for (i =610; i< 640; i++){          // 18-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+} 
+            for (j = 415; j<575; j++){       
+      for (i = 610; i<640; i++){            //18-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+            for (j = 415; j<575; j++){       
+      for (i = 575; i<605; i++){            //17-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+           for (j = 415; j<575; j++){       
+      for (i = 610; i<640; i++){            //18-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){         
+      for (i =540; i< 570; i++){          // 16-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =470; i< 500; i++){          // 14-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =470; i< 500; i++){          // 14-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =400; i< 430; i++){          // 12-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =400; i< 430; i++){          // 12-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =330; i< 360; i++){          // 10-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 330; i<360; i++){            //10-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 295; i<325; i++){            //9-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =260; i< 290; i++){          // 8-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =225; i< 255; i++){          // 7-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =225; i< 255; i++){          // 7-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =190; i< 220; i++){          // 6-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 190; i<220; i++){            //6-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 155; i<185; i++){            //5-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 155; i<185; i++){            //5-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 120; i<150; i++){            //4-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 120; i<150; i++){            //4-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 85; i<115; i++){            //3-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+            for (j = 415; j<575; j++){       
+      for (i = 610; i<640; i++){            //18-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){         
+      for (i =575; i< 605; i++){          // 17-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =505; i< 535; i++){          // 15-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =505; i< 535; i++){          // 15-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =435; i< 465; i++){          // 13-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =435; i< 465; i++){          // 13-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =365; i< 395; i++){          // 11-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 365; i<395; i++){            //11-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 330; i<360; i++){            //10-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =295; i< 325; i++){          // 9-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =260; i< 290; i++){          // 8-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =260; i< 290; i++){          // 8-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =225; i< 255; i++){          // 7-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 225; i<255; i++){            //7-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 190; i<220; i++){            //6-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 190; i<220; i++){            //6-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 155; i<185; i++){            //5-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 155; i<185; i++){            //5-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 120; i<150; i++){            //4-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+for (j = 215; j<375; j++){         
+      for (i =610; i< 640; i++){          // 18-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =540; i< 570; i++){          // 16-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =540; i< 570; i++){          // 16-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =470; i< 500; i++){          // 14-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =470; i< 500; i++){          // 14-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =400; i< 430; i++){          // 12-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 400; i<430; i++){            //12-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 365; i<395; i++){            //11-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =330; i< 360; i++){          // 10-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =295; i< 325; i++){          // 9-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =295; i< 325; i++){          // 9-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =260; i< 290; i++){          // 8-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 260; i<290; i++){            //8-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 225; i<255; i++){            //7-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 225; i<255; i++){            //7-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 190; i<220; i++){            //6-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 190; i<220; i++){            //6-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 155; i<185; i++){            //5-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+for (j = 215; j<375; j++){         
+      for (i =575; i< 605; i++){          // 17-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =575; i< 605; i++){          // 17-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =505; i< 535; i++){          // 15-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =505; i< 535; i++){          // 15-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =435; i< 465; i++){          // 13-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 435; i<465; i++){            //13-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 400; i<430; i++){            //12-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =365; i< 395; i++){          // 11-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =330; i< 360; i++){          // 10-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =330; i< 360; i++){          // 10-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =295; i< 325; i++){          // 9-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i = 295; i<325; i++){            //9-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 260; i<290; i++){            //8-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 260; i<290; i++){           //8-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 225; i<255; i++){            //7-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 225; i<255; i++){            //7-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 190; i<220; i++){            //6-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+for (j = 215; j<375; j++){         
+      for (i =610; i< 640; i++){          // 18-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =610; i< 640; i++){            // 18-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =540; i< 570; i++){          // 16-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =540; i< 570; i++){         // 16-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =470; i< 500; i++){          // 14-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i =470; i< 500; i++){          //14-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 435; i<465; i++){            //13-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =400; i< 430; i++){          // 12-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =365; i< 395; i++){          // 11-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =365; i< 395; i++){          // 11-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =330; i< 360; i++){          // 10-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i =330; i< 360; i++){            //10-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 295; i<325; i++){            //9-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 295; i<325; i++){           //9-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 260; i<290; i++){            //8-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 260; i<290; i++){           //8-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 225; i<255; i++){            //7-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+   *ptr++ = bmpdata[coor_x + coor_y*cols];
+   }
+   }
+   while(1) {
+	   usleep(400*1000);
+	   break;
+   }
+for (j = 20; j<180; j++){         
+      for (i =575; i< 605; i++){          // 17-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+     for (i =575; i< 605; i++){       // 17-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =505; i< 535; i++){          // 15-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i =505; i< 535; i++){          //15-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 470; i<500; i++){            //14-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 20; j<180; j++){         
+      for (i =435; i< 465; i++){          // 13-3
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 20; j<180; j++){         
+      for (i =400; i< 430; i++){          // 12-3
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =400; i< 430; i++){           // 12-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}  
+for (j = 215; j<375; j++){         
+      for (i =365; i< 395; i++){          // 11-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}  
+for (j = 415; j<575; j++){       
+      for (i =365; i< 395; i++){            //11-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 330; i<360; i++){            //10-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 330; i<360; i++){          //10-2
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 215; j<375; j++){       
+      for (i = 295; i<325; i++){            //9-2
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for (j = 415; j<575; j++){       
+     for (i = 295; i<325; i++){           //9-1
+      bmpdata[(j*1000)+i] =16776961;    
+   }
+}
+for (j = 415; j<575; j++){       
+      for (i = 260; i<290; i++){            //8-1
+      bmpdata[(j*1000)+i] =0;    
+   }
+}
+for(coor_y = 0; coor_y < rows; coor_y++) {
+   ptr = (unsigned long*)pfbmap + (screen_width * coor_y);
+   for (coor_x = 0; coor_x < cols; coor_x++) {
+
+
